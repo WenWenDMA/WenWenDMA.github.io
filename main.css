@@ -27,9 +27,8 @@ p {
  border: 3px dotted #ff008d;
 }
 
-iv, iframe {
-    width: 100px;
-    height: 50px;
+div, iframe {
+   
     margin: 0 auto;
     background-color: #777;
 }
