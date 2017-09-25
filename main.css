@@ -27,6 +27,10 @@ p {
  border: 3px dotted #ff008d;
 }
 
+video{
+  align: center;
+}
+
 a {
 color: #69CBBB;
 }
