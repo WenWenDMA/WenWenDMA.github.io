@@ -27,10 +27,12 @@ p {
  border: 3px dotted #ff008d;
 }
 
-div, iframe {
-   
-    margin: 0 auto;
-
+div {
+  text-align:center;
+  width:100%;
+}
+iframe{
+  width: 200px;
 }
 
 a {
