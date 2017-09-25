@@ -8,6 +8,12 @@
    font: italic 200% courier;
   }
 
+ h2 {
+   color: #ff008d;
+   text-align: center;
+   font: italic 200% courier;
+  }
+
   p {
    color: #33a8ff;
    text-align: right;
