@@ -27,8 +27,11 @@ p {
  border: 3px dotted #ff008d;
 }
 
-video{
-  align: center;
+iv, iframe {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
 }
 
 a {
