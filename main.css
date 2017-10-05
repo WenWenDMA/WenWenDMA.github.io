@@ -20,11 +20,16 @@
   }
 
 p {
- padding: 50px;
+ padding: 20px;
  color: lightgrey;
  text-align: center;
 }
 
+div {
+    border: 1px solid black;
+    margin: 100px 150px 100px 80px;
+    background-color: lightblue;
+}
 
 a {
 color: #69CBBB;
