@@ -15,13 +15,13 @@
   }
 
   p {
-   color: grey;
+   color: lightgrey;
    text-align: right;
   }
 
 p {
  padding: 200px;
- color: grey;
+ color: lightgrey;
  text-align: center;
 }
 
