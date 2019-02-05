@@ -184,10 +184,10 @@
         ///////////////////////////////////////////////////////////
 
 
-        geometry = new THREE.IcosahedronGeometry(150, 1);
+        geometry = new THREE.IcosahedronGeometry(.3, 0);
         material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading, side: THREE.DoubleSide});
         mesh = new THREE.Mesh(geometry, material);
-        mesh.scale.x = mesh.scale.y = mesh.scale.z = 1.11;
+      //  mesh.scale.x = mesh.scale.y = mesh.scale.z = 1.11;
         // mesh.rotation.x = 2.74;
         // mesh.rotation.y = 2.12;
         // mesh.rotation.z = 2.82;
