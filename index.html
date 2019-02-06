@@ -33,12 +33,11 @@
 
 				scene = new THREE.Scene();
 
-				geometry = new THREE.IcosahedronGeometry(1, 1);
-				material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading, side: THREE.DoubleSide});
+
+				geometry = new THREE.CylinderGeometry(100, 100, 200, 50, 50, false);
+				material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading});
 				mesh = new THREE.Mesh(geometry, material);
 				scene.add(mesh);
-
-
 
 			}
 
