@@ -249,7 +249,7 @@
          };
 
          var textureLoader = new THREE.TextureLoader( manager );
-         var texture = textureLoader.load( '../../data/data/cheetah.jpeg' );
+         var texture = textureLoader.load( '../../data/data/mytest1texture.jpg' );
 
          // obj model
          var onProgress = function ( xhr ) {
@@ -263,7 +263,7 @@
          };
 
          var loader = new THREE.OBJLoader( manager );
-         loader.load( '../../data/data/male02/male02.obj', function ( object ) {
+         loader.load( '../../data/data/mytest1.obj', function ( object ) {
 
              object.traverse( function ( child ) {
 
