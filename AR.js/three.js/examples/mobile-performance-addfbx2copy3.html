@@ -289,28 +289,28 @@
          ///////////////////////////////////////////////////////////
          //add obj model2 (static) with material textures
 
-        var onProgress = function ( xhr ) {
-            if ( xhr.lengthComputable ) {
-                var percentComplete = xhr.loaded / xhr.total * 100;
-                console.log( Math.round( percentComplete, 2 ) + '% downloaded' );
-            }
-        };
-        var onError = function () { };
-        THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
-        new THREE.MTLLoader()
-            .setPath( '../../data/data/' )
-            .load( 'mytest1.mtl', function ( materials ) {
-                materials.preload();
-                new THREE.OBJLoader()
-                    .setMaterials( materials )
-                    .setPath( '../../data/data/' )
-                    .load( 'mytest1.obj', function ( object ) {
-                        object.scale.set(.4, .4, .4);
-                        arWorldRoot.add( object );
-                    }, onProgress, onError );
-            } );
-
-
+        // var onProgress = function ( xhr ) {
+        //     if ( xhr.lengthComputable ) {
+        //         var percentComplete = xhr.loaded / xhr.total * 100;
+        //         console.log( Math.round( percentComplete, 2 ) + '% downloaded' );
+        //     }
+        // };
+        // var onError = function () { };
+        // THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
+        // new THREE.MTLLoader()
+        //     .setPath( '../../data/data/' )
+        //     .load( 'mytest1.mtl', function ( materials ) {
+        //         materials.preload();
+        //         new THREE.OBJLoader()
+        //             .setMaterials( materials )
+        //             .setPath( '../../data/data/' )
+        //             .load( 'mytest1.obj', function ( object ) {
+        //                 object.scale.set(.4, .4, .4);
+        //                 arWorldRoot.add( object );
+        //             }, onProgress, onError );
+        //     } );
+        //
+        //
 
          //end obj2 code
         ///////////////////////////////////////////////////////////
