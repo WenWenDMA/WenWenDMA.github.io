@@ -1,19 +1,18 @@
-newmtl lambert3SG
+newmtl lambert8SG
 illum 4
-Kd 0.35 0.14 0.41
+Kd 0.50 0.13 0.13
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl lambert4SG
+newmtl lambert9SG
 illum 4
-Kd 0.13 0.44 0.42
+Kd 0.48 0.23 0.50
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
-newmtl lambert5SG
+newmtl lambert10SG
 illum 4
-Kd 0.00 0.00 0.00
+Kd 0.23 0.41 0.37
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd mytest1texture.jpg
 Ni 1.00
